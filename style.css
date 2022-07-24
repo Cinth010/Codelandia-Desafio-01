@@ -1,12 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
-.header {
+.content_header {
+  width: 100%;
+  padding: 1.25rem;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
   height: 12.5rem;
   background-image: linear-gradient(to right, #574ae8, #3ea1db);
   font-family: 'Lexend Deca';
@@ -17,15 +22,22 @@
   color: white;
 }
 
-.names{
+.header {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+
+}
+
+.names {
   padding-top: 3rem;
-  margin-inline: 1.25rem;
+
 
 }
 
 .search {
+  width: 100%;
   clear: both;
-  margin-inline: 1.25rem;
   margin-top: 2.5rem;
   height: 2.5rem;
   border-radius: 0.313rem;
@@ -44,10 +56,19 @@
   font-size: 14px;
 }
 
+.content_post {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .articles {
   display: flex;
   flex-direction: column;
-
+  width: 100%;
+  max-width: 1200px;
 
   margin-top: 3.125rem;
   margin-bottom: 4.063rem;
