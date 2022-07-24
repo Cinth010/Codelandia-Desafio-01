@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 12.5rem;
+  background-image: linear-gradient(to right, #574ae8, #3ea1db);
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+.names{
+  padding-top: 3rem;
+  margin-inline: 1.25rem;
+
+}
+
+.search {
+  clear: both;
+  margin-inline: 1.25rem;
+  margin-top: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.313rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.search::placeholder {
+  padding: 0.75rem;
+  border: none;
+  color: white;
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+
+
+  margin-top: 3.125rem;
+  margin-bottom: 4.063rem;
+  margin-inline: 1.25rem;
+  gap: 1.563rem;
+}
+
+.new-article {
+  padding: 0.938rem;
+  box-shadow: 2px 2px 10px rgba(19, 19, 31, 0.1);
+  border-radius: 0.313rem;
+}
+
+.article-date {
+  color: #717171;
+  font-family: 'Lexend Deca';
+}
+
+.title {
+  font-family: 'Lexend Deca';
+  color: #1a202c;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 0.563rem;
+}
+
+.article-content {
+  font-family: 'Lexend Deca';
+  margin-top: 1.6rem;
+  text-justify: distribute;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+
+  color: #717171;
+}
